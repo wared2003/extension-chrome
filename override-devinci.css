@@ -1,3 +1,54 @@
 .btn{
     border-radius: 5px !important;
 }
+    /*******************************************************************/
+    /*****************************EDT***********************************/
+    /*******************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+.edt *{
+  font-family: 'Montserrat' !important;
+}
+
+.edt .body{
+  position: relative;
+  left: 3000px;
+}
+.transition_une_seconde_gauche{
+  transition: all 1000ms;
+  left: 0px !important;
+}
+.rotation-360{
+  transition: transform 1000ms;
+  transform: rotate(360deg);
+}
+.rotation-360:hover{
+  transition: transform 1000ms;
+  transform: rotate(360deg);
+}
+
+@keyframes slidein {
+  0% { right: 100px; transform: rotate(263deg);}
+  100% { right: 0px; transform: rotate(0deg);}
+}
+@keyframes colorchange {
+  0% { background: yellow }
+  100% { background: blue }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.btn {
+  position: relative;
+  animation: colorchange 2s !important;
+  animation: .5s linear 1s infinite alternate slidein !important;
+}
+
+
+    /*******************************************************************/
+    /*****************************EDT END*******************************/
+    /*******************************************************************/
