@@ -9,7 +9,7 @@
     {
         "matches": ["*://*.leonard-de-vinci.net/*"],
         "js": ["override-devinci.js"],
-        "css": ["override-devinci.css", "edt.css"]
+        "css": ["override-devinci.css"]
     }
     ]
 
