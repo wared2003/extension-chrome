@@ -1,3 +1,32 @@
-.btn{
+/* ############## */
+/* Fiche Etudiant */
+/* ############## */
+
+.home .alert{
+    display: none ;
+}
+
+.home .btn {
     border-radius: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.home .social-box{
+    border-radius: 10px !important;
+}
+
+.home .social-box header{
+    border-radius: 10px 10px 0 0;
+}
+
+.home .well{
+    width: fit-content;
+}
+
+.home .tab-content ul{
+    margin: 0px;
+}
+
+.home .social-box .scroll{
+    overflow-y: auto;
 }
