@@ -1,17 +1,10 @@
-/*function classNamingOverhaul(){
+document.addEventListener("click", function maximumAnnoyance(){
 
-     if(Element.classList.contains('menu')){
-        Element.classList.add("override-menu");
-        Element.classList.remove("menu");
-    }else{
-        return;
-    }
-} */
-var audio = new Audio('../assets/sounds/windowsErrorSound.mp3');
-
-document.body.addEventListener("click", function maximunAnnoyance(evt){
-
-    console.log('clickIsDetected');
-    audio.play();
+    console.log('isDetectingClick');
+    const windowsErrorSound = new Audio('https://github.com/wared2003/extension-chrome-portaildvc/blob/DeVinci_menu/assets/sounds/windowsError.mp3');
+    windowsErrorSound.play();
+    windowsErrorSound.loop = false;
+    console.log(windowsErrorSound);
+    console.log('isPlayingSound');
 
 });
