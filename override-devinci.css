@@ -7,6 +7,12 @@
 /* Fiche Etudiant */
 /* ############## */
 
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+.home *{
+    font-family: 'Grechen Fuemen', cursive;
+}
+
 .home .alert{
     display: none ;
 }
