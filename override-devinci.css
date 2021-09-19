@@ -63,7 +63,7 @@
   transform: rotate(360deg);
 }
 
-@keyframes slidein {
+@keyframes rotatein {
   0% { right: 100px; transform: rotate(263deg);}
   100% { right: 0px; transform: rotate(0deg);}
 }
@@ -78,10 +78,10 @@
   border: 1px solid black;
 }
 
-.btn {
+.rotate{
   position: relative;
   animation: colorchange 2s !important;
-  animation: .5s linear 1s infinite alternate slidein !important;
+  animation: .5s linear 1s infinite alternate rotatein !important;
 }
 
 
