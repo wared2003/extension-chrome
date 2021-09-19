@@ -22,7 +22,7 @@ if (curent_page_href == "https://www.leonard-de-vinci.net/") {
     img.setAttribute('src', imageLink[randomNumber]);
 }
 
-<<<<<<< HEAD
+
 if (curent_page_href == 'https://www.leonard-de-vinci.net/?my=edt') {
     document.getElementsByTagName('body')[0].className = 'edt';
     console.log('loaded');
@@ -43,7 +43,7 @@ if (curent_page_href == 'https://www.leonard-de-vinci.net/?my=edt') {
     calendar.style.left = '0px !important';
 }
 
-=======
+
 if(curent_page_href == 'https://www.leonard-de-vinci.net/?my=edt'){
     document.getElementsByTagName('body')[0].className = 'edt';
     console.log('loaded');
@@ -65,4 +65,4 @@ document.addEventListener("click", function maximumAnnoyance(){
     console.log('isPlayingSound');
 
 });
->>>>>>> 2631efb0d74e246f6cbd3b8a56df4aafce01fee7
+
