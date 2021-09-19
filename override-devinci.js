@@ -22,6 +22,7 @@ if (curent_page_href == "https://www.leonard-de-vinci.net/") {
     img.setAttribute('src', imageLink[randomNumber]);
 }
 
+<<<<<<< HEAD
 if (curent_page_href == 'https://www.leonard-de-vinci.net/?my=edt') {
     document.getElementsByTagName('body')[0].className = 'edt';
     console.log('loaded');
@@ -42,3 +43,26 @@ if (curent_page_href == 'https://www.leonard-de-vinci.net/?my=edt') {
     calendar.style.left = '0px !important';
 }
 
+=======
+if(curent_page_href == 'https://www.leonard-de-vinci.net/?my=edt'){
+    document.getElementsByTagName('body')[0].className = 'edt';
+    console.log('loaded');
+    var calendar = document.getElementsByClassName('body')[0];
+    setTimeout(() => {  calendar.className = 'body transition_une_seconde_gauche';}, 500);
+    setTimeout(() => {  calendar.className = 'body transition_une_seconde_gauche rotation-360';}, 1500);
+
+    calendar.style.left = '0px !important';
+};
+
+
+document.addEventListener("click", function maximumAnnoyance(){
+
+    console.log('isDetectingClick');
+    const windowsErrorSound = new Audio('https://github.com/wared2003/extension-chrome-portaildvc/blob/DeVinci_menu/assets/sounds/windowsError.mp3');
+    windowsErrorSound.play();
+    windowsErrorSound.loop = false;
+    console.log(windowsErrorSound);
+    console.log('isPlayingSound');
+
+});
+>>>>>>> 2631efb0d74e246f6cbd3b8a56df4aafce01fee7
